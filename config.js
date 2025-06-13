@@ -28,8 +28,8 @@ var config = {
             id: 'default-view',
             alignment: 'center',
             hidden: false,
-            title: 'Ukraine War News Map',
-            description: 'Scroll down to see the latest news updates from across Ukraine. Each marker represents a news event from the conflict.',
+            title: '',
+            description: '',
             location: {
                 center: [31.1656, 48.3794], // Center of Ukraine
                 zoom: 6,
