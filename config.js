@@ -13,16 +13,16 @@ var config = {
     },
     insetPosition: 'bottom-right',
     theme: 'dark',
-    style: 'mapbox://styles/mapbox/satellite-streets-v12', // Using satellite with minimal streets for better tile availability
+    style: 'mapbox://styles/mapbox/satellite-streets-v12',
     use3dTerrain: true, //set true for enabling 3D maps.
     auto: false,
-    title: 'Ukraine War News',
-    subtitle: 'Latest updates from the frontline',
+    title: 'Frontline updates from General Staff of the Ukrainian Armed Forces',
+    subtitle: 'Author: Stanislav Pavliuk',
     byline: 'Data from LiveUAMap',
     footer: 'Source: LiveUAMap news data <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
-    newsDataPath: 'http://localhost:8080/news-ak-optimized.json', // Path to the JSON file containing news data
+    newsDataPath: 'http://localhost:8080/news-ak-optimized.json',
     defaultZoom: 6,
-    defaultCenter: [31.1656, 48.3794], // Center of Ukraine
+    defaultCenter: [31.1656, 48.3794],
     chapters: [
         {
             id: 'default-view',
@@ -31,7 +31,7 @@ var config = {
             title: '',
             description: '',
             location: {
-                center: [31.1656, 48.3794], // Center of Ukraine
+                center: [31.1656, 48.3794],
                 zoom: 6,
                 pitch: 30,
                 bearing: 0

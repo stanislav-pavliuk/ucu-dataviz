@@ -711,6 +711,8 @@
                 attributionControl: false
             });
 
+            console.log(minimap.getZoom());
+
             // Add markers to minimap after it loads
             minimap.on('load', () => {
                 // Add GeoJSON layer to minimap if it exists
@@ -731,7 +733,6 @@
                     });
                 }
 
-                // Add news markers to minimap
                 if (newsData?.venues) {
                     newsData.venues.forEach(venue => {
                         if (venue.lng && venue.lat) {
@@ -742,14 +743,12 @@
                 }
             });
 
-            // Sync minimap with main map
             function syncMinimap() {
                 minimap.setCenter(map.getCenter());
-                minimap.setZoom(Math.max(0, map.getZoom() - 4));
-                minimap.setBearing(0); // Keep minimap north-up for better orientation
+                minimap.setZoom(Math.max(0, map.getZoom() - 6));
+                minimap.setBearing(0);
             }
 
-            // Update minimap when main map moves
             map.on('move', syncMinimap);
             map.on('zoom', syncMinimap);
 
