@@ -20,7 +20,7 @@ var config = {
     subtitle: 'Author: Stanislav Pavliuk',
     byline: 'Data from LiveUAMap',
     footer: 'Source: LiveUAMap news data <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
-    newsDataPath: 'http://localhost:8080/news-ak-optimized.json',
+    newsDataPath: '/news-ak-optimized.json',
     defaultZoom: 6,
     defaultCenter: [31.1656, 48.3794],
     chapters: [
