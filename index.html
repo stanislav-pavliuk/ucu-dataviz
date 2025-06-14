@@ -747,7 +747,7 @@
 
             function syncMinimap() {
                 minimap.setCenter(map.getCenter());
-                minimap.setZoom(Math.max(0, map.getZoom() - 6));
+                minimap.setZoom(Math.max(3, map.getZoom() - 8));
                 minimap.setBearing(0);
             }
 
@@ -826,7 +826,7 @@
             container: 'map',
             style: config.style,
             center: initialLocation.center || config.defaultCenter || [0, 0],
-            zoom: initialLocation.zoom ?? config.defaultZoom ?? 0,
+            zoom: initialLocation.zoom ?? config.defaultZoom ?? 3,
             bearing: initialLocation.bearing || 0,
             pitch: initialLocation.pitch || 0,
             interactive: false,

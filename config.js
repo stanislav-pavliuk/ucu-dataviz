@@ -21,7 +21,7 @@ var config = {
     byline: 'Data from <a href="https://liveuamap.com/">LiveUAMap</a> and <a href="https://deepstatemap.live/">DeepStateMap</a>.',
     footer: 'Source: LiveUAMap news data <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     newsDataPath: 'news-ak-optimized.json',
-    defaultZoom: 6,
+    defaultZoom: 4,
     defaultCenter: [31.1656, 48.3794],
     chapters: [
         {
@@ -32,7 +32,7 @@ var config = {
             description: '',
             location: {
                 center: [31.1656, 48.3794],
-                zoom: 6,
+                zoom: 5,
                 pitch: 30,
                 bearing: 0
             },
