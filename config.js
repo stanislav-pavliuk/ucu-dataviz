@@ -18,7 +18,7 @@ var config = {
     auto: false,
     title: 'Frontline updates from General Staff of the Ukrainian Armed Forces',
     subtitle: 'Author: Stanislav Pavliuk',
-    byline: 'Data from LiveUAMap',
+    byline: 'Data from <a href="https://liveuamap.com/">LiveUAMap</a> and <a href="https://deepstatemap.live/">DeepStateMap</a>.',
     footer: 'Source: LiveUAMap news data <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     newsDataPath: 'news-ak-optimized.json',
     defaultZoom: 6,
